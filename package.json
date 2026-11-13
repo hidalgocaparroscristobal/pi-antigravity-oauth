@@ -1,0 +1,25 @@
+{
+  "name": "pi-antigravity-oauth",
+  "version": "1.0.0",
+  "description": "Lightweight direct Google OAuth & HTTPS SSE Gemini provider for Gentle Shell / Pi (no agy subprocesses, dual ACP/CLI accounts, Alt+U & /usage quota).",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "pi",
+    "gentle-shell",
+    "antigravity",
+    "gemini",
+    "oauth"
+  ],
+  "pi": {
+    "extensions": [
+      "./src/entry.ts"
+    ]
+  },
+  "scripts": {
+    "test": "node test/smoke.mjs"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
